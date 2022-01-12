@@ -4,11 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
       <People 
       firstName = {"Jane"}
       lastName = {"Doe"}
       age = {42}
       hairColor = {"Brown"}
+      
       />
       <People 
       firstName = {"john"}
@@ -28,7 +30,9 @@ function App() {
       age = {23}
       hairColor = {"Red"}
       />
+      
     </div>
+    
   );
 }
 
